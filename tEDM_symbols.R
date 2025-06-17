@@ -1,3 +1,5 @@
+# setwd('./download/tEDM_logo/')
+
 # --- Simulation Function ---
 simulate_attractor = function(f, x0, y0, z0, steps = 5000, dt = 0.01) {
   x = numeric(steps)
