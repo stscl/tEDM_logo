@@ -9,7 +9,7 @@ library(magick)
 sticker(
   subplot = "./EDM.png",
   s_x = 1.035,
-  s_y = 0.965,
+  s_y = 0.955,
   s_width = .65,
   s_height = .65,
   package = "tEDM",
