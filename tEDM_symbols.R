@@ -29,21 +29,21 @@ cols = "#e6a922"  # Golden color
 
 # --- Plot M view (3D manifold) ---
 
-png("M.png", width = 1600, height = 1600, res = 300, bg = "transparent")
+png("M.png", width = 1600, height = 1600, res = 300, bg = "#58006d")
 plot3D::lines3D(lorenz[,1], lorenz[,2], lorenz[,3], colvar = NULL, col = cols,
-                theta = 10, phi = 0, pch = 19, lwd = 0.25, bty = "n", axes = FALSE)
+                theta = 10, phi = 0, pch = 19, lwd = 0.45, bty = "n", axes = FALSE)
 dev.off()
 
 # --- Plot MX view (Y–Z projection) ---
 
-png("Mx.png", width = 1600, height = 1600, res = 300, bg = "transparent")
+png("Mx.png", width = 1600, height = 1600, res = 300, bg = "#58006d")
 plot3D::lines3D(lorenz[,1], lorenz[,2], lorenz[,3], colvar = NULL, col = cols,
-                theta = 90, phi = 85, pch = 19, lwd = 0.25, bty = "n", axes = FALSE)
+                theta = 90, phi = 85, pch = 19, lwd = 0.45, bty = "n", axes = FALSE)
 dev.off()
 
 # --- Plot MY view (X–Z projection) ---
 
-png("My.png", width = 1600, height = 1600, res = 300, bg = "transparent")
+png("My.png", width = 1600, height = 1600, res = 300, bg = "#58006d")
 plot3D::lines3D(lorenz[,1], lorenz[,2], lorenz[,3], colvar = NULL, col = cols,
-                theta = 90, phi = -95, pch = 19, lwd = 0.25, bty = "n", axes = FALSE)
+                theta = 90, phi = -95, pch = 19, lwd = 0.45, bty = "n", axes = FALSE)
 dev.off()
