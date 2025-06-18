@@ -8,8 +8,8 @@ library(magick)
 
 sticker(
   subplot = "./EDM.png",
-  s_x = 1.035,
-  s_y = 0.955,
+  s_x = 1.065,
+  s_y = 0.945,
   s_width = .65,
   s_height = .65,
   package = "tEDM",
@@ -24,8 +24,8 @@ sticker(
   h_color = "#ef4c2d",
   h_fill = "#58006d",
   spotlight = TRUE,
-  l_x = 0.935,
-  l_y = 0.810,
+  l_x = 0.955,
+  l_y = 0.765,
   l_width = 4.25,
   l_height = 1.55,
   l_alpha = 0.95,
