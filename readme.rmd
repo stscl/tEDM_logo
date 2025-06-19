@@ -45,8 +45,8 @@ sticker(
   l_alpha = 0.95,
   white_around_sticker = F,
   url = "https://stscl.github.io/tEDM",
-  u_color = "#b22222",
-  u_size = 5.25,
+  u_color = "#e6a922",
+  u_size = 5.55,
   filename = "tEDM_logo.png"
 )
 
